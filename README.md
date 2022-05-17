@@ -25,4 +25,4 @@ cd GooglePhishing
 chmod 777 creds.txt
 ```
 
-Then visit http://your_server/GooglePhishing/index.html and give it a try!
+Then visit your_server.com/GooglePhishing/index.html and give it a try!
