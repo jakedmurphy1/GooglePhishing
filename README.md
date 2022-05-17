@@ -11,7 +11,7 @@ Legal Disclaimer: Usage of this repo for attacking targets without prior consent
 
 ### Get Started
 
-Run the below commands in the /var/www/html folder of your web server.
+Run the below commands in the <b>/var/www/html</b> folder of your web server.
 
 ```
 git clone https://github.com/jakedmurphy1/GooglePhishing.git
@@ -24,7 +24,10 @@ cd GooglePhishing
 ```
 chmod 666 creds.txt
 ```
+Move the credentials file into the non-public <b>/var/www</b> folder:
+```
+mv creds.txt ../../creds.txt
+```
 
-```
-Visit /GooglePhishing/index.html and give it a try!
-```
+Then visit GooglePhishing/index.html and give it a try!
+
