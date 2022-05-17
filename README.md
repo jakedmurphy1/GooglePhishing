@@ -1,6 +1,6 @@
 # GooglePhishing
 
-This repo contains a fake two-part Google Login. It can be used on a web server that supports PHP files. Any entered credentials are saved in the <b>creds.txt</b> file. The Domain Suffix can be changed from <b>@client.com</b> to any site of your choosing (to do this, just edit line 21 of index.html). Follow steps below for a quick and easy setup.
+This repo contains a fake two-part Google Login. It can be used on a web server that supports PHP files. Any entered credentials are saved in the <b>/opt/GooglePhishing/creds.txt</b> file. The Domain Suffix can be changed from <b>@client.com</b> to any site of your choosing (to do this, just edit line 21 of index.html). Follow steps below for a quick and easy setup.
 
 <p float="left">
 <img alt='Email Page' src='http://165.227.79.102/img/1.png?q=1' style='width:400px;'/>
