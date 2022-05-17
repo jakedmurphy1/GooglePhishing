@@ -29,5 +29,5 @@ Move the credentials file into the non-public <b>/var/www</b> folder:
 mv creds.txt ../../creds.txt
 ```
 
-Then visit <b>/GooglePhishing/index.html</b> and give it a try! Any gathered credentials will be stored in <b>/var/www/creds.txt</b>
+Then visit <b>/GooglePhishing/index.html</b> in your browser and give it a try! Any gathered credentials will be stored in <b>/var/www/creds.txt</b>
 
