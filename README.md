@@ -22,7 +22,7 @@ cd GooglePhishing
 ```
 
 ```
-chmod 777 creds.txt
+chmod 666 creds.txt
 ```
 
 ```
