@@ -31,6 +31,12 @@ function redir_password(){
 		
 }
 	
+window.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13 && document.getElementById("identifierId").value != "") {
+    redir_password();
+  }
+});
+	
 </script>
 
 </body>
